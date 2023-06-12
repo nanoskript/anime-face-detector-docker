@@ -5,8 +5,9 @@ ARG PIP_DISABLE_PIP_VERSION_CHECK=1
 ARG PIP_NO_CACHE_DIR=1
 
 # Install base dependencies.
-RUN apt-get update
-RUN apt-get install -y g++ git
+RUN apt-get update && apt-get install -y g++ git
+RUN pip install pillow
+RUN pip install numpy
 RUN pip install torch==1.10.0 --index-url https://download.pytorch.org/whl/cpu
 RUN pip install torchvision==0.11.1 --index-url https://download.pytorch.org/whl/cpu
 
