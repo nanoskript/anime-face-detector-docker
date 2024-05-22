@@ -12,16 +12,16 @@ detector = create_detector('yolov3', device='cpu')
 
 
 class Box(BaseModel):
-    xa: int
-    xb: int
-    ya: int
-    yb: int
+    xa: float
+    xb: float
+    ya: float
+    yb: float
     score: float
 
 
 class KeyPoint(BaseModel):
-    x: int
-    y: int
+    x: float
+    y: float
     score: float
 
 

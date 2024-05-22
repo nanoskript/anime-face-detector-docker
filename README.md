@@ -1,7 +1,7 @@
 # anime-face-detector-docker
 
 [Docker Hub](https://hub.docker.com/r/nanoskript/anime-face-detector)
-| [Demo](https://anime-face-detector.nanoskript.dev/)
+| [Demo](https://anime-face-detector.nsk.sh/)
 
 Docker service for <https://github.com/hysts/anime-face-detector>.
 
